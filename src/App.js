@@ -3,6 +3,7 @@ import Picture from "./components/Picture";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
 import Scoreboard from "./components/Scoreboard";
+import Message from "./components/Message";
 import pictures from "./pictures.json";
 
 function shuffle(array) {
@@ -17,41 +18,45 @@ class App extends Component {
   state = {
     pictures,
     clicked: [],
-    score: 0
+    score: 0,
+    message: ""
   };
 
   clickedPicture = id => {
     let clicked = this.state.clicked;
-    // let score = this.state.score;
 
     if (clicked.indexOf(id) === -1) {
       clicked.push(id);
       console.log(clicked);
       this.setState({ score: this.state.score + 1 });
       this.setState({ pictures: shuffle(pictures) });
+      this.setState({ message: "" })
 
-    } else if (this.state.score === 9) {
-      console.log(this.state.score);
-      this.setState({
-        score: 0,
-        clicked: []
-      });
+      if (clicked.length === 10) {
+        console.log(this.state.score);
+        this.setState({
+          score: 0,
+          clicked: [],
+          message: "Congrats - you win!"
+        });
+      }
     } else {
       console.log(this.state.score);
       this.setState({
         score: 0,
-        clicked: []
+        clicked: [],
+        message: "Oops - try again."
       });
 
     }
   }
 
-
   render() {
     return (
       <Wrapper>
-        <Title>Warhol Click
+        <Title>Warhol Memory Game
           <Scoreboard>Score: {this.state.score}</Scoreboard>
+          <Message>{this.state.message}</Message>
         </Title>
         {this.state.pictures.map(picture => (
           <Picture

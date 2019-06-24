@@ -11,8 +11,8 @@
     },
     {
         "id": 3,
-        "name": "Britney",
-        "image": "https://i.pinimg.com/originals/b8/ca/7e/b8ca7ec5ea52cd4ba6c884635fdf9a5c.jpg"
+        "name": "Twiggy",
+        "image": "https://i.pinimg.com/originals/ac/6c/29/ac6c29bf50a2108a072706d058194ea7.jpg"
     },
     {
         "id": 4,
@@ -32,7 +32,7 @@
     {
         "id": 7,
         "name": "John",
-        "image": "https://www.christies.com/img/LotImages/2014/NYR/2014_NYR_02847_0069_000(andy_warhol_john_lennon).jpg"
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51uci%2BizOLL.jpg"
     },
     {
         "id": 8,
@@ -43,5 +43,10 @@
         "id": 9,
         "name": "Jackie",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGDFSTyBqahv_TZQodcT9sDAXvRzfKbUxjx3zmbWQaoVoPkugtA"
+    },
+    {
+        "id": 10,
+        "name": "Mick",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUKZN2ycFtbnQH4ELXcemArUpRXBQ880nUjDVrEZMfu98OSqV8wA"
     }
 ]
