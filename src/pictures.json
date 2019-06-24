@@ -1,39 +1,47 @@
 [
     {
         "id": 1,
+        "name": "Debbie",
         "image": "https://whitney.org/uploads/image/file/822034/large_E_2016_2359.jpg"
     },
     {
         "id": 2,
+        "name": "Marilyn",
         "image": "https://nnimgt-a.akamaihd.net/transform/v1/crop/frm/3AijacentBN9GedHCvcASxG/657b98c4-5b97-432a-8cf1-ce18f1d2f735.jpg/r0_0_1600_1626_w1200_h678_fmax.jpg"
     },
     {
         "id": 3,
+        "name": "Britney",
         "image": "https://i.pinimg.com/originals/b8/ca/7e/b8ca7ec5ea52cd4ba6c884635fdf9a5c.jpg"
     },
     {
         "id": 4,
+        "name": "Michael",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1acUvdE7gxA7dNRD8oO1LiATgpQ6CIXNMFORBk8zynHAZ_cx"
     },
     {
         "id": 5,
+        "name": "Gaga",
         "image": "http://www.mrsras.com/uploads/7/0/8/5/7085982/354868_orig.png"
     },
     {
         "id": 6,
+        "name": "Liz",
         "image": "https://www.mercurynews.com/wp-content/uploads/2019/05/SJM-L-WARHOL-0530-01.jpg?w=620"
     },
     {
         "id": 7,
+        "name": "John",
         "image": "https://www.christies.com/img/LotImages/2014/NYR/2014_NYR_02847_0069_000(andy_warhol_john_lennon).jpg"
     },
     {
         "id": 8,
+        "name": "Prince",
         "image": "https://www.mcnayart.org/images/uploads/Andy_Warhol,_Prince,_ca._1984_._.jpg"
     },
     {
         "id": 9,
+        "name": "Jackie",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHGDFSTyBqahv_TZQodcT9sDAXvRzfKbUxjx3zmbWQaoVoPkugtA"
     }
 ]
-

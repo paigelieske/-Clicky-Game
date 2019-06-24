@@ -1,0 +1,12 @@
+.img-container {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin: 40px;
+  }
+
+.img-container > img {
+    width: 300px;
+    height: 300px
+  }
