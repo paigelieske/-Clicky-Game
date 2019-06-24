@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Picture from "./components/Picture";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
+import Scoreboard from "./components/Scoreboard";
 import pictures from "./pictures.json";
 
 function shuffle(array) {
@@ -21,19 +22,22 @@ class App extends Component {
 
   clickedPicture = id => {
     let clicked = this.state.clicked;
-    let score = this.state.score;
+    // let score = this.state.score;
 
     if (clicked.indexOf(id) === -1) {
       clicked.push(id);
+      console.log(clicked);
       this.setState({ score: this.state.score + 1 });
       this.setState({ pictures: shuffle(pictures) });
 
     } else if (this.state.score === 9) {
+      console.log(this.state.score);
       this.setState({
         score: 0,
         clicked: []
       });
     } else {
+      console.log(this.state.score);
       this.setState({
         score: 0,
         clicked: []
@@ -46,7 +50,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Clicky Game</Title>
+        <Title>Warhol Click
+          <Scoreboard>Score: {this.state.score}</Scoreboard>
+        </Title>
         {this.state.pictures.map(picture => (
           <Picture
             id={picture.id}
